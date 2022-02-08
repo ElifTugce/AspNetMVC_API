@@ -11,6 +11,7 @@ using AspNetMVC_API_Entity.Models;
 
 namespace AspNetMVC_API.Controllers
 {
+    
     public class StudentController : ApiController
     {
         //Global alan
@@ -67,6 +68,7 @@ namespace AspNetMVC_API.Controllers
             }
         }
 
+        //[System.Web.Http.Route("detay/{id:int:min(1)}")]
         public ResponseData GetDetail(int id)
         {
             try
